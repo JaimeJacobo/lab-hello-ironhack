@@ -1,0 +1,114 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blueBackground {
+  background-color: rgb(32, 37, 52);
+}
+
+.noMargin{
+  margin: 0px 0px;
+}
+
+.screen{
+  height: 100vh;
+}
+
+.midHeight{
+  height: 70vh;
+}
+
+#images {
+  height: 70vh;
+}
+
+.flexCentered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlledWidth{
+  width: 18vw;
+}
+
+.controlledWidth p {
+  text-align: initial;
+  margin: 0 20px;
+  padding-left: 20px;
+}
+
+.smallHeight{
+  height: 10vh;
+}
+
+.flexSpaceBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mainContent {
+  height: 81vh;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 35vw;
+}
+
+#mainContent h1 {
+  font-size: 91px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+  text-align: left;
+}
+
+#mainContent p {
+  font-size: 25px;
+  width: 24vw;
+  text-align: left;
+}
+
+.padding{
+  padding: 3vh 6vw;
+}
+
+#button{
+  width: 100px;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 15px;
+}
